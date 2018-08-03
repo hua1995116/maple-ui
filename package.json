@@ -1,0 +1,35 @@
+{
+  "name": "maple-ui",
+  "version": "1.0.0",
+  "description": "🍁简约美的PC组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renjie1996/maple-ui.git"
+  },
+  "keywords": [],
+  "author": "boomerang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renjie1996/maple-ui/issues"
+  },
+  "homepage": "https://github.com/renjie1996/maple-ui#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "node-sass": "^4.9.2",
+    "parcel": "^1.9.7",
+    "parcel-bundler": "^1.9.7",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
