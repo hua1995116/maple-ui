@@ -1,6 +1,6 @@
 <template>
   <button class="m-button" :class="{[`icon--${iconPosition}`]: true}">
-    <m-icon v-if="icon&&!loading" class="icon icon__position" :type="icon" />
+    <m-icon v-if="icon" class="icon icon__position" :type="icon" />
     <m-icon class="icon loading" type="spinner"></m-icon>
     <div class="content">
        <slot />
