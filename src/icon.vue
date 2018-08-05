@@ -4,6 +4,7 @@
 <script>
 import '../stylesheets/font-awesome-4.7.0/scss/font-awesome'
 export default {
+  name: 'm-icon',
   props: {
     type: String
   },
