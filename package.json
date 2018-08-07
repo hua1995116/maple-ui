@@ -4,8 +4,9 @@
   "description": "🍁简约美的PC组件库",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx parcel index.html"
+    "test": "parcel build test/* --no-cache && karma start --single-run",
+    "build": "parcel index.html",
+    "dev": "parcel watch index.html"
   },
   "repository": {
     "type": "git",
@@ -19,13 +20,14 @@
   },
   "homepage": "https://github.com/renjie1996/maple-ui#readme",
   "dependencies": {
-    "chai": "^4.1.2",
     "http-server": "^0.11.1",
     "vue": "^2.5.17",
     "vue-hot-reload-api": "^2.3.0"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^2.1.0",
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
     "karma": "^2.0.5",
     "karma-chai": "^0.1.0",
     "karma-chai-spies": "^0.1.4",
@@ -38,6 +40,7 @@
     "node-sass": "^4.9.2",
     "parcel": "^1.9.7",
     "parcel-bundler": "^1.9.7",
+    "requirejs": "^2.3.5",
     "sinon": "^6.1.4",
     "sinon-chai": "^3.2.0",
     "vue-template-compiler": "^2.5.17"
