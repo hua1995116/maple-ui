@@ -25,3 +25,19 @@ new Vue({
     }
   }
 })
+
+// 单元测试
+import chai from 'chai'
+const expect = chai.expect
+{
+  const Constructor = Vue.extend(Button)
+  const button = new Constructor({
+    propsData: {
+      icon: 'spinner'
+    }
+  })
+  button.$mount('#test')
+  const classes = button.$el.querySelector('i').className
+  expect(classes).to.eq('icon icon__position m-icon fa fas fa-spinner')
+  
+}

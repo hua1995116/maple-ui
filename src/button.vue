@@ -63,7 +63,7 @@ export default {
       padding: 0 1em;
       font: inherit;text-align: center;vertical-align: middle;
       display: inline-flex; justify-content: center; align-items: center;
-      &:hover { border-color: var(--border-color-hover); position: relative; z-index: 1;}
+      &:hover { border-color: var(--border-color-hover); position: relative; z-index: 1; cursor: pointer;}
       &:active { background: var(--button-active-bg); }
       &:focus { outline: none; }
       > .icon { margin-right: .3em; }
