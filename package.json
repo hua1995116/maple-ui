@@ -2,10 +2,10 @@
   "name": "maple-ui-components",
   "version": "0.0.1",
   "description": "🍁简约美的PC组件库",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "parcel build test/* --no-cache && karma start --single-run",
-    "build": "rm -rf dist/* && parcel index.html",
+    "build": "rm -rf dist/* && parcel index.js",
     "dev": "rm -rf dist/* && parcel index.html",
     "dev:test": "parcel watch test/* --no-cache & karma start"
   },
