@@ -4,3 +4,6 @@ node_js:
 addons:
   chrome: stable
 sudo: required
+notifications:
+  email:
+    - 2578370399@qq.com
