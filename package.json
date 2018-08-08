@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "parcel build test/* --no-cache && karma start --single-run",
-    "build": "rm -rf dist/* && parcel index.js",
+    "build": "rm -rf dist/* && parcel build index.js --no-minify",
     "dev": "rm -rf dist/* && parcel index.html",
     "dev:test": "parcel watch test/* --no-cache & karma start"
   },
