@@ -5,7 +5,6 @@
     <div class="content">
        <slot />
     </div>
-   
   </button>
 </template>
 <script>
@@ -51,7 +50,6 @@ export default {
   }
 }
 </script>
-
 <style lang="scss">
   @keyframes spin {
     0% { transform: rotate(0deg) }

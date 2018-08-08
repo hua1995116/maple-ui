@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "parcel build test/* --no-cache && karma start --single-run",
-    "build": "parcel index.html",
-    "dev": "parcel watch index.html"
+    "build": "rm -rf dist//* && parcel index.html",
+    "dev": "parcel watch index.html",
+    "dev:test": "parcel watch test/* --no-cache & karma start"
   },
   "repository": {
     "type": "git",
