@@ -269,6 +269,8 @@ var staticRenderFns = []
           };
         })());
       
+},{}],"813Y":[function(require,module,exports) {
+
 },{}],"Focm":[function(require,module,exports) {
 'use strict';
 
@@ -289,10 +291,12 @@ var _icon = require('./src/icon.vue');
 
 var _icon2 = _interopRequireDefault(_icon);
 
+require('./src/global.scss');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.Button = _button2.default;
 exports.ButtonGroup = _buttonGroup2.default;
 exports.Icon = _icon2.default;
-},{"./src/button.vue":"iM1m","./src/button-group.vue":"h0wh","./src/icon.vue":"wFXB"}]},{},["Focm"], null)
+},{"./src/button.vue":"iM1m","./src/button-group.vue":"h0wh","./src/icon.vue":"wFXB","./src/global.scss":"813Y"}]},{},["Focm"], null)
 //# sourceMappingURL=/index.map

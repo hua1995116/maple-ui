@@ -1,6 +1,6 @@
 {
   "name": "maple-ui-components",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "🍁简约美的PC组件库",
   "main": "dist/index.js",
   "scripts": {
