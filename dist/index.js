@@ -275,6 +275,7 @@ var staticRenderFns = []
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Icon = exports.ButtonGroup = exports.Button = undefined;
 
 var _button = require('./src/button.vue');
 
@@ -290,10 +291,8 @@ var _icon2 = _interopRequireDefault(_icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = {
-  Button: _button2.default,
-  ButtonGroup: _buttonGroup2.default,
-  Icon: _icon2.default
-};
+exports.Button = _button2.default;
+exports.ButtonGroup = _buttonGroup2.default;
+exports.Icon = _icon2.default;
 },{"./src/button.vue":"iM1m","./src/button-group.vue":"h0wh","./src/icon.vue":"wFXB"}]},{},["Focm"], null)
 //# sourceMappingURL=/index.map
