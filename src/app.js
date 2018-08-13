@@ -2,13 +2,15 @@ import Vue from 'vue'
 import Button from './button.vue'
 import Icon from './icon.vue'
 import ButtonGroup from './button-group'
+import Input from './input'
 
 new Vue({
   el: '#app',
   components: {
     "m-button": Button,
     "m-icon": Icon,
-    "m-button-group": ButtonGroup
+    "m-button-group": ButtonGroup,
+    'm-input': Input,
   },
   data() {
     return {
