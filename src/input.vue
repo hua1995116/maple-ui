@@ -56,5 +56,4 @@ export default {
     .icon { color: $red; margin-right: 0; vertical-align: center;}
     .message { color: $red; vertical-align: center;line-height: $font-size;}
   }
-
 </style>
