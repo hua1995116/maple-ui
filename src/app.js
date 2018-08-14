@@ -20,10 +20,13 @@ new Vue({
     }
   },
   methods: {
-    button1Click() {
+    button1Click () {
       console.log('click', this)
       this.loading1 = true
       setTimeout(() => this.loading1 = false, 1500)
+    },
+    inputChange (e) {
+      console.log(123, e)
     }
   }
 })

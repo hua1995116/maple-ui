@@ -4,7 +4,7 @@
   "description": "🍁简约美的PC组件库",
   "main": "dist/index.js",
   "scripts": {
-    "test": "parcel build test/* --no-cache && karma start --single-run",
+    "test": "parcel build test/* --no-cache && karma start --single-run && ./node_modules/.bin/codecov",
     "build": "rm -rf dist/* && parcel build index.js --no-minify",
     "dev": "rm -rf dist/* && parcel index.html",
     "dev:test": "parcel watch test/* --no-cache & karma start"
@@ -44,7 +44,8 @@
     "requirejs": "^2.3.5",
     "sinon": "^6.1.4",
     "sinon-chai": "^3.2.0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "codecov": "^3.0.4"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
